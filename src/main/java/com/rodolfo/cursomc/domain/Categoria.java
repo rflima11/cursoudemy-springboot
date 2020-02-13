@@ -30,6 +30,15 @@ public class Categoria implements Serializable {
 		this.id = id;
 		this.nome = nome;
 	}
+	
+	
+
+
+
+	public Categoria(Object object, String nome) {
+	
+		this.nome = nome;
+	}
 
 
 
